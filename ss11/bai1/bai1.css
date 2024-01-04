@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+height: 50px;
+background-color: grey;
+}
+.menu .list_menu{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .button_search {
+   
+    position: relative;
+}
+.menu .button_search button{
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: yellowgreen;
+    height: 30px;
+    width: 80px;
+    padding-left: 20px;
+}
+.menu .button_search .material-symbols-outlined {
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    top: 5px;
+}
+.menu li{
+    list-style-type: none;
+}
+
+

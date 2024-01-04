@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aliceblue;
+}
+.image {
+    width: 600px;
+    height: 400px;
+    background-image: url(anh.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.image_box {
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.image_text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.icon {
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+.icon_dau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+.icon_num {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    color: beige;
+}
+.icon_dau:hover{
+    background-color: black;
+}
+.icon_num:hover{
+    background-color: black;
+}
